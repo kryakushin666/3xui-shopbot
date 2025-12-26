@@ -44,7 +44,7 @@ def get_connection_string(inbound: Inbound, user_uuid: str, host_url: str, remar
     connection_string = (
         f"vless://{user_uuid}@{parsed_url.hostname}:{port}"
         f"?type=tcp&security=reality&pbk={public_key}&fp={fp}&sni={server_names[0]}"
-        f"&sid={short_id}&spx=%2F&flow=xtls-rprx-vision#{remark}"
+        f"&sid={short_id}&spx=%2F&flow=xtls-rprx-vision#🇷🇺 Россия LTE"
     )
     return connection_string
 
@@ -202,7 +202,7 @@ async def create_or_update_key_on_host(host_name: str, email: str, days_to_add: 
         
     # Prefer exact expiry when provided (e.g., switching hosts), otherwise add days (purchase/extend/trial)
     client_uuid, new_expiry_ms, client_sub_token = update_or_create_client_on_panel(
-        api, inbound.id, email, days_to_add=days_to_add, target_expiry_ms=expiry_timestamp_ms
+        api, inbound.id, "🇷🇺 Россия LTE", days_to_add=days_to_add, target_expiry_ms=expiry_timestamp_ms
     )
 
     if not client_uuid:
@@ -216,7 +216,7 @@ async def create_or_update_key_on_host(host_name: str, email: str, days_to_add: 
     
     return {
         "client_uuid": client_uuid,
-        "email": email,
+        "email": "🇷🇺 Россия LTE",
         "expiry_timestamp_ms": new_expiry_ms,
         "connection_string": connection_string,
         "host_name": host_name

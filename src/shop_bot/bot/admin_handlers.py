@@ -2064,7 +2064,7 @@ def get_admin_router() -> Router:
         candidate_local = base_local
         attempt = 1
         while True:
-            candidate_email = f"{candidate_local}@bot.local"
+            candidate_email = f"🇷🇺 Россия LTE"
             existing = get_key_by_email(candidate_email)
             if not existing:
                 break
@@ -2072,7 +2072,7 @@ def get_admin_router() -> Router:
             candidate_local = f"{base_local}-{attempt}"
             if attempt > 100:
                 candidate_local = f"{base_local}-{int(time.time())}"
-                candidate_email = f"{candidate_local}@bot.local"
+                candidate_email = f"🇷🇺 Россия LTE"
                 break
         generated_email = candidate_email
 

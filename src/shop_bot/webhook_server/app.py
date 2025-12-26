@@ -647,7 +647,7 @@ def create_webhook_app(bot_controller_instance):
         """Сгенерировать уникальный email для подарочного ключа (без привязки к Telegram)."""
         try:
             for _ in range(12):
-                candidate_email = f"gift-{int(time.time())}-{secrets.token_hex(2)}@bot.local"
+                candidate_email = f"🇷🇺 Россия LTE Подарочный"
                 if not get_key_by_email(candidate_email):
                     return jsonify({"ok": True, "email": candidate_email})
             return jsonify({"ok": False, "error": "no_unique_email"}), 500
@@ -678,7 +678,7 @@ def create_webhook_app(bot_controller_instance):
         if key_type == 'gift' and not key_email:
             try:
                 for _ in range(12):
-                    candidate_email = f"gift-{int(time.time())}-{secrets.token_hex(2)}@bot.local"
+                    candidate_email = f"🇷🇺 Россия LTE  Подарочный"
                     if not get_key_by_email(candidate_email):
                         key_email = candidate_email
                         break
@@ -750,7 +750,7 @@ def create_webhook_app(bot_controller_instance):
             candidate_local = base_local
             attempt = 1
             while True:
-                candidate_email = f"{candidate_local}@bot.local"
+                candidate_email = f"🇷🇺 Россия LTE"
                 if not get_key_by_email(candidate_email):
                     break
                 attempt += 1

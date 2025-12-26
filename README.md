@@ -1,19 +1,19 @@
 <div align="center" markdown>
       <h1>3X-ui-ShopBot | Telegram-бот для продажи VPN</h1>
 <p align="center">
-    <a href="https://github.com/tweopi/3xui-shopbot?tab=readme-ov-file#%EF%B8%8F-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BF%D0%BE%D0%B4-%D0%BA%D0%BB%D1%8E%D1%87">Установка и обновление</a> •
-    <a href="https://github.com/tweopi/3xui-shopbot?tab=readme-ov-file#-%D0%B1%D0%B0%D0%B3%D0%B8-%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F">Баги и предложения</a> •
+    <a href="https://github.com/kryakushin666/3xui-shopbot?tab=readme-ov-file#%EF%B8%8F-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BF%D0%BE%D0%B4-%D0%BA%D0%BB%D1%8E%D1%87">Установка и обновление</a> •
+    <a href="https://github.com/kryakushin666/3xui-shopbot?tab=readme-ov-file#-%D0%B1%D0%B0%D0%B3%D0%B8-%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F">Баги и предложения</a> •
     <a href="#%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D0%BF%D0%BE-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83">Поддержка по проекту</a> •
     <a href="https://t.me/+0a2q3H5G7JU4NDMy">Группа для соискателей</a> •
-    <a href="https://github.com/tweopi/3xui-shopbot?tab=readme-ov-file#-%D0%B1%D0%B0%D0%B3%D0%B8-%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F">Поддержать проект</a>
+    <a href="https://github.com/kryakushin666/3xui-shopbot?tab=readme-ov-file#-%D0%B1%D0%B0%D0%B3%D0%B8-%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F">Поддержать проект</a>
 </p>
 <p align="center">
-  <img alt="release" src="https://img.shields.io/github/v/release/tweopi/3xui-shopbot?label=release&style=flat-square">
-  <img alt="downloads" src="https://img.shields.io/github/downloads/tweopi/3xui-shopbot/total?label=downloads&style=flat-square">
-  <img alt="license" src="https://img.shields.io/github/license/tweopi/3xui-shopbot?label=license&style=flat-square">
-  <img alt="last-commit" src="https://img.shields.io/github/last-commit/tweopi/3xui-shopbot?label=last%20commit&style=flat-square">
-  <img alt="issues" src="https://img.shields.io/github/issues/tweopi/3xui-shopbot?label=issues&style=flat-square">
-  <img alt="stars" src="https://img.shields.io/github/stars/tweopi/3xui-shopbot?label=stars&style=flat-square">
+  <img alt="release" src="https://img.shields.io/github/v/release/kryakushin666/3xui-shopbot?label=release&style=flat-square">
+  <img alt="downloads" src="https://img.shields.io/github/downloads/kryakushin666/3xui-shopbot/total?label=downloads&style=flat-square">
+  <img alt="license" src="https://img.shields.io/github/license/kryakushin666/3xui-shopbot?label=license&style=flat-square">
+  <img alt="last-commit" src="https://img.shields.io/github/last-commit/kryakushin666/3xui-shopbot?label=last%20commit&style=flat-square">
+  <img alt="issues" src="https://img.shields.io/github/issues/kryakushin666/3xui-shopbot?label=issues&style=flat-square">
+  <img alt="stars" src="https://img.shields.io/github/stars/kryakushin666/3xui-shopbot?label=stars&style=flat-square">
   <img alt="python" src="https://img.shields.io/badge/python-%E2%89%A53.10-blue?style=flat-square">
 </p>
 </div>
@@ -293,14 +293,14 @@ docker-compose up -d
 **Обновить бота до последней версии:**
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/tweopi/3xui-shopbot/main/install.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/kryakushin666/3xui-shopbot/main/install.sh | sudo bash
 
 docker-compose down && docker-compose up
 ```
 
 ## 🙌 Баги и предложения
 
-Если вы нашли баг, или у вас есть предложение, то создавайте "Issue" или присылайте Pull Request'ы. Так же можно со мной связаться [@tweopi](https://t.me/tweopi)
+Если вы нашли баг, или у вас есть предложение, то создавайте "Issue" или присылайте Pull Request'ы. Так же можно со мной связаться [@kryakushin666](https://t.me/kryakushin666)
 
 ## 💎 Поддержать разработку
 

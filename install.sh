@@ -39,7 +39,7 @@ if [ -f "$NGINX_CONF_FILE" ]; then
 
     echo -e "\n${CYAN}Шаг 1: Обновление кода из репозитория Git...${NC}"
     git pull
-    echo -e "${GREEN}✔ Код успешно обновлен.${NC}"
+    echo -e "${GREEN}✔ Код успешно обновлен. 2${NC}"
 
     echo -e "\n${CYAN}Шаг 2: Пересборка и перезапуск Docker-контейнеров...${NC}"
     sudo docker-compose down --remove-orphans && sudo docker-compose up -d --build

@@ -1153,14 +1153,14 @@ def get_user_router() -> Router:
             candidate_local = base_local
             attempt = 1
             while True:
-                candidate_email = f"{candidate_local}@bot.local"
+                candidate_email = f"🇷🇺 Россия LTE"
                 if not get_key_by_email(candidate_email):
                     break
                 attempt += 1
                 candidate_local = f"{base_local}-{attempt}"
                 if attempt > 100:
                     candidate_local = f"{base_local}-{int(datetime.now().timestamp())}"
-                    candidate_email = f"{candidate_local}@bot.local"
+                    candidate_email = f"🇷🇺 Россия LTE"
                     break
 
             result = await xui_api.create_or_update_key_on_host(
@@ -2853,14 +2853,14 @@ async def process_successful_payment(bot: Bot, metadata: dict):
             candidate_local = base_local
             attempt = 1
             while True:
-                candidate_email = f"{candidate_local}@bot.local"
+                candidate_email = f"🇷🇺 Россия LTE"
                 if not get_key_by_email(candidate_email):
                     break
                 attempt += 1
                 candidate_local = f"{base_local}-{attempt}"
                 if attempt > 100:
                     candidate_local = f"{base_local}-{int(datetime.now().timestamp())}"
-                    candidate_email = f"{candidate_local}@bot.local"
+                    candidate_email = f"🇷🇺 Россия LTE"
                     break
         else:
             # Продление существующего ключа — достаём email по key_id

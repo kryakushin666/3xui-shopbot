@@ -678,7 +678,7 @@ def create_webhook_app(bot_controller_instance):
         if key_type == 'gift' and not key_email:
             try:
                 for _ in range(12):
-                    candidate_email = f"🇷🇺 Россия LTE  Подарочный"
+                    candidate_email = f"🇷🇺 Россия LTE Подарочный"
                     if not get_key_by_email(candidate_email):
                         key_email = candidate_email
                         break

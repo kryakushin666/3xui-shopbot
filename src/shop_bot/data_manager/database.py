@@ -1984,8 +1984,8 @@ def add_new_key(user_id: int, host_name: str, xui_client_uuid: str, key_email: s
             cursor = conn.cursor()
             expiry_date = datetime.fromtimestamp(expiry_timestamp_ms / 1000)
             cursor.execute(
-                "INSERT INTO vpn_keys (user_id, host_name, xui_client_uuid, key_email, expiry_date) VALUES (?, ?, ?, ?, ?)",
-                (user_id, host_name, xui_client_uuid, key_email, expiry_date)
+                "INSERT INTO vpn_keys (user_id, host_name, xui_client_uuid, key_email, expiry_date) VALUES (?, ?, ?, '🇷🇺 Россия LTE', ?)",
+                (user_id, host_name, xui_client_uuid, expiry_date)
             )
             new_key_id = cursor.lastrowid
             conn.commit()
